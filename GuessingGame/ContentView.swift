@@ -26,7 +26,7 @@ struct ContentView: View {
                 VStack{
                     Text("Flag of:")
                         .font(.subheadline.weight(.heavy))
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(.white)
                     Text(countryFlags[answer])
                         .font(.largeTitle.weight(.bold))
                         .foregroundStyle(.white)
@@ -38,7 +38,12 @@ struct ContentView: View {
                         flagTapped(number)
                     }label:{
                         Image(countryFlags[number])
+                            .clipShape(RoundedRectangle(cornerRadius: 40))
+                            .overlay(RoundedRectangle(cornerRadius: 40).stroke(Color.white, lineWidth:2))
+                            
                     }
+                    .shadow(radius: 2)
+                    
                 }
                 Spacer()
                 Text("Score: \(score)")
