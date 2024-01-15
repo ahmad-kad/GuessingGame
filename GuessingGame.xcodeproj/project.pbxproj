@@ -19,6 +19,7 @@
 		F624F5DC2B54A07B0024491A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F624F5DE2B54A07C0024491A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F624F5E12B54A07C0024491A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F624F5EA2B54CDAE0024491A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		F624F5CE2B54A07B0024491A = {
 			isa = PBXGroup;
 			children = (
+				F624F5EA2B54CDAE0024491A /* README.md */,
 				F624F5D92B54A07B0024491A /* GuessingGame */,
 				F624F5D82B54A07B0024491A /* Products */,
 			);
