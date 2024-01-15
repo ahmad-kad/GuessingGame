@@ -12,7 +12,7 @@ Game and score resets
 
 ## Screenshots
 Home:
-![Home](Assets.xcassets/gg-ss.png)
+![Home](GuessingGame/Assets.xcassets/gg-ss.png)
 
 Gameover:
-![Final Screen](Assets.xcassets/ggg_gameover.png)
+![Final Screen](GuessingGame/Assets.xcassets/gg_gameover.png)
