@@ -11,8 +11,10 @@ Game and score resets
 
 
 ## Screenshots
-Home:
-![Home](GuessingGame/Assets.xcassets/gg-ss.imageset/gg-ss.png)
+###Home:
 
-Gameover:
+![Home](GuessingGame/Assets.xcassets/gg_ss.imageset/gg_ss.png)
+
+###Gameover:
+
 ![Final Screen](GuessingGame/Assets.xcassets/gg_gameover.imageset/gg_gameover.png)
